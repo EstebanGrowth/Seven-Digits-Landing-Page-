@@ -6,9 +6,7 @@ import { useEffect, useState } from "react";
 import { LogoMark } from "./Icons";
 
 const links = [
-  { href: "/#services", label: "Services" },
-  { href: "/#how-it-works", label: "How It Works" },
-  { href: "/#contact", label: "Contact" },
+  { href: "/#book", label: "Contact" },
 ];
 
 export function Header() {

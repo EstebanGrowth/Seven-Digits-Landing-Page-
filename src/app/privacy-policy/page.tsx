@@ -60,15 +60,14 @@ export default function PrivacyPolicyPage() {
 
         <h2 id="information-we-collect">2. Information we collect</h2>
         <h3>Information you give us</h3>
-        <p>When you fill out our website form, book a consultation, email, call, or work with us, you may provide:</p>
+        <p>When you book a consultation through our website, email, call, or work with us, you may provide:</p>
         <ul>
           <li>Contact details: your name, email address, and phone number.</li>
           <li>Business details: your business name, type of contracting business, and service area.</li>
           <li>Information about your goals, marketing challenges, services, and project or marketing requirements.</li>
           <li>Scheduling details you enter when booking a consultation.</li>
           <li>
-            Your text message preferences, including whether you checked our optional non-marketing and
-            marketing SMS consent boxes.
+            Your communication preferences, including whether you chose to opt in to receive text messages.
           </li>
           <li>Anything else you choose to share with us during a consultation or while we provide services.</li>
         </ul>
@@ -79,10 +78,9 @@ export default function PrivacyPolicyPage() {
 
         <h3>Information collected automatically</h3>
         <p>
-          When you submit our website form, we record technical details that help us keep an accurate record
-          of your request and your consent choices: the date and time of submission, the page where the form
-          was submitted, your IP address, your browser&apos;s user-agent string, and the version of the consent
-          wording that was displayed to you.
+          When you book a consultation through the calendar on our website, our CRM provider records details of the
+          booking, such as the date and time it was made and any consent choices you selected, and may record
+          technical information such as your IP address and browser type.
         </p>
         <p>
           Like most websites, our hosting provider may also automatically process standard server log
@@ -126,10 +124,9 @@ export default function PrivacyPolicyPage() {
         </div>
         <ul>
           <li>
-            <strong>Two separate, optional consents.</strong> Our website form offers two separate checkboxes:
-            one for non-marketing messages (about your inquiry, consultation scheduling, appointment reminders,
-            and requested follow-up) and one for marketing and promotional messages. Both are unchecked by
-            default, and neither is required to submit the form, book a call, or purchase our services.
+            <strong>Optional consent.</strong> We send text messages only to people who have opted in. Any text
+            message consent option we offer is unchecked by default and is not required to book a call or purchase
+            our services. Marketing messages are sent only to people who have specifically agreed to receive them.
           </li>
           <li>
             <strong>A phone number alone is not consent.</strong> Entering your phone number, submitting a form,
@@ -150,8 +147,8 @@ export default function PrivacyPolicyPage() {
             <a href={`mailto:${site.email}`}>{site.email}</a> or {site.phoneDisplay}.
           </li>
           <li>
-            <strong>Consent records.</strong> When you use our website form, we keep a record of which boxes you
-            checked, the exact consent wording shown, and the date, time, and source of your submission.
+            <strong>Consent records.</strong> We keep records of text message consent and opt-out requests, including
+            when and how consent was given.
           </li>
         </ul>
         <p>
@@ -173,7 +170,7 @@ export default function PrivacyPolicyPage() {
           <li>
             <strong>GoHighLevel / LeadConnector.</strong> We use the HighLevel platform (also known as
             LeadConnector) as our CRM and to store contact records, manage our booking calendar, and send emails
-            and text messages. Information you submit through our form or booking calendar is stored there.
+            and text messages. Information you submit through our booking calendar is stored there.
           </li>
           <li>
             <strong>Website hosting.</strong> Our website is hosted by Vercel, which processes technical

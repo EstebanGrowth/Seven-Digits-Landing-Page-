@@ -98,7 +98,7 @@ export default function TermsPage() {
 
         <h2 id="submissions">5. Information you submit</h2>
         <p>
-          When you submit our form or book a consultation, you agree that the information you provide is accurate and
+          When you book a consultation or contact us, you agree that the information you provide is accurate and
           that you are authorized to provide it. Submitting an inquiry or booking a consultation does not create a client
           relationship or obligate either party to enter into an agreement. We handle personal information as described
           in our <Link href="/privacy-policy">Privacy Policy</Link>.
@@ -106,8 +106,8 @@ export default function TermsPage() {
 
         <h2 id="sms-terms">6. SMS program terms</h2>
         <p>
-          Seven Digits may send text messages to people who have opted in through the separate, optional consent
-          checkboxes on our website form, or who have otherwise given consent in a way that is recorded and permitted by
+          Seven Digits may send text messages only to people who have opted in, for example through an optional consent
+          checkbox on our booking form, or who have otherwise given consent in a way that is recorded and permitted by
           law.
         </p>
         <h3>Types of messages</h3>

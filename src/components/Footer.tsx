@@ -34,9 +34,6 @@ export function Footer() {
             <h2>Company</h2>
             <ul>
               <li>
-                <Link href="/#services">Services</Link>
-              </li>
-              <li>
                 <Link href="/#book">Book a Strategy Call</Link>
               </li>
               <li>
