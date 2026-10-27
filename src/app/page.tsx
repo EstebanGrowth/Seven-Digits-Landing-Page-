@@ -55,26 +55,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CTA band */}
-      <section className="section" aria-labelledby="cta-title">
-        <div className="container">
-          <div className="cta-band">
-            <span className="eyebrow">Free strategy call</span>
-            <h2 id="cta-title">Let&apos;s talk about your next jobs.</h2>
-            <p>
-              Tell us about your business, how you get customers today, your service area, and where
-              you want to grow. We&apos;ll share an honest view of whether and how we can help. Not every
-              business is a fit, and we&apos;ll tell you if we don&apos;t think it is.
-            </p>
-            <div className="hero-ctas">
-              <a href="#book" className="btn btn-primary">
-                Book a Free Strategy Call <Arrow />
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Booking + contact */}
       <section id="book" className="section section-alt" aria-labelledby="book-title">
         <div id="contact" className="container booking-wrap">
