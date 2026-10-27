@@ -89,10 +89,10 @@ export default function PrivacyPolicyPage() {
 
         <h3>Information related to service delivery</h3>
         <p>
-          If you become a client, we may process information about the prospects who respond to the marketing
-          we run on your behalf (for example, a prospect&apos;s name, contact details, and project details) so that
-          we can follow up with them and pass qualified or potentially qualified opportunities to you. We handle
-          that information on your behalf and in line with our agreement with you.
+          If you become a client, we may process information about people who respond to the marketing we run for
+          your business (for example, their name, contact details, and project details). Those people are inquiring
+          about your services, so we handle their information on your behalf, follow up with them, and deliver their
+          inquiries to you, in line with our agreement with you. We do not buy, sell, or rent lead lists.
         </p>
 
         <h2 id="how-we-use">3. How we use information</h2>
@@ -128,6 +128,17 @@ export default function PrivacyPolicyPage() {
             <strong>Optional consent.</strong> We send text messages only to people who have opted in. Any text
             message consent option we offer is unchecked by default and is not required to book a call or purchase
             our services. Marketing messages are sent only to people who have specifically agreed to receive them.
+          </li>
+          <li>
+            <strong>Messages we send.</strong> With your consent, we may text you appointment confirmations, reminders,
+            scheduling updates, and responses to your inquiry. Marketing and promotional texts are sent only to people
+            who have separately agreed to receive them.
+          </li>
+          <li>
+            <strong>How you can opt in.</strong> You can opt in by checking the optional text message box on our booking
+            form, or by telling us during a phone call that we may text you about an appointment you scheduled with us.
+            When consent is given on a call, we record the date, time, phone number, and the messages you agreed to
+            receive. Agreeing on a call to receive appointment texts does not include marketing texts.
           </li>
           <li>
             <strong>A phone number alone is not consent.</strong> Entering your phone number, submitting a form,
@@ -166,7 +177,10 @@ export default function PrivacyPolicyPage() {
         </p>
 
         <h2 id="sharing">6. How we share information</h2>
-        <p>We do not sell your personal information. We share information only as described below:</p>
+        <p>
+          We do not sell your personal information, and we do not buy, sell, or rent lead lists. We share information
+          only as described below:
+        </p>
         <ul>
           <li>
             <strong>GoHighLevel / LeadConnector.</strong> We use the HighLevel platform (also known as
@@ -182,9 +196,10 @@ export default function PrivacyPolicyPage() {
             phone numbers and message content as needed to deliver calls, emails, and text messages.
           </li>
           <li>
-            <strong>Our clients (service delivery only).</strong> When we run marketing for a contractor and a
-            prospect responds, we share that prospect&apos;s inquiry details with the contractor so they can provide
-            an estimate or service. This applies to prospects of our clients, not to contractors who contact
+            <strong>Delivering a client&apos;s own inquiries.</strong> When we run marketing for a contractor, people
+            who respond are asking about that contractor&apos;s services, and we deliver their inquiry to that contractor
+            so they can respond. This is not a sale of personal information, it never includes mobile numbers or SMS
+            opt-in data collected for Seven Digits&apos; own text messages, and it does not apply to people who contact
             Seven Digits about our own services.
           </li>
           <li>

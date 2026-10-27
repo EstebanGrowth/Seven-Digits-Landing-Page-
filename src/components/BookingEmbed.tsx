@@ -37,10 +37,10 @@ export function BookingEmbed() {
         .
       </p>
       <p className="sms-disclosure">
-        <strong>Text messages:</strong> The booking form includes optional, unchecked boxes to receive text messages
-        from Seven Digits: one for appointment and inquiry messages, and a separate one for marketing messages. You
-        can book a call without checking either box. Message frequency varies. Message and data rates may apply.
-        Reply STOP to opt out or HELP for help. Consent is not a condition of purchase. See our{" "}
+        <strong>Text messages are optional.</strong> You can book a call without agreeing to receive texts. If you opt
+        in, Seven Digits may text you appointment confirmations, reminders, scheduling updates, and responses to your
+        inquiry. Marketing texts are sent only if you separately opt in to them. Message frequency varies. Message and
+        data rates may apply. Reply STOP to opt out or HELP for help. Consent is not a condition of purchase. See our{" "}
         <Link href="/privacy-policy">Privacy Policy</Link> and <Link href="/terms-and-conditions">Terms and Conditions</Link>.
       </p>
     </div>

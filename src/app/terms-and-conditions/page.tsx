@@ -113,13 +113,14 @@ export default function TermsPage() {
         <h3>Types of messages</h3>
         <ul>
           <li>
-            <strong>Non-marketing (transactional) messages:</strong> responses to your inquiry, consultation scheduling,
-            appointment confirmations and reminders, and follow-up you have requested. Sent only if you opted in to
-            non-marketing messages.
+            <strong>Non-marketing (appointment) messages:</strong> appointment confirmations, reminders, scheduling
+            updates, and responses to your inquiry. Sent only if you opted in to these messages on our booking form or
+            agreed during a phone call with us to receive texts about an appointment you scheduled.
           </li>
           <li>
-            <strong>Marketing messages:</strong> promotional messages, including service updates and offers. Sent only
-            if you separately opted in to marketing messages.
+            <strong>Marketing messages:</strong> recurring promotional messages, including service updates and offers.
+            Sent only if you separately opted in to marketing messages. Agreeing to appointment texts does not include
+            marketing texts.
           </li>
         </ul>
         <h3>Program details</h3>
