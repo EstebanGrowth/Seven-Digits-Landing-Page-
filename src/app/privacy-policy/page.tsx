@@ -102,7 +102,7 @@ export default function PrivacyPolicyPage() {
           <li>To manage leads and keep organized records in our customer relationship management (CRM) system.</li>
           <li>To evaluate whether our services are a good fit for your business and to prepare proposals.</li>
           <li>To provide, manage, and improve our services, including follow-up with and qualification of prospects for our clients.</li>
-          <li>To send you text messages, only in the categories you have agreed to (see Section 4).</li>
+          <li>To send you appointment-related text messages, only if you have agreed to receive them (see Section 4).</li>
           <li>To send you emails related to your inquiry or our services, and marketing emails where permitted (see Section 5).</li>
           <li>To keep records of consent and opt-out requests.</li>
           <li>To protect our website and business against fraud, spam, and abuse, and to comply with legal obligations.</li>
@@ -125,25 +125,24 @@ export default function PrivacyPolicyPage() {
         </div>
         <ul>
           <li>
-            <strong>Optional consent.</strong> We send text messages only to people who have opted in. Any text
-            message consent option we offer is unchecked by default and is not required to book a call or purchase
-            our services. Marketing messages are sent only to people who have specifically agreed to receive them.
+            <strong>Optional consent.</strong> We send text messages only to people who have opted in. The text message
+            consent box on our booking form is unchecked by default and is not required to book a call or purchase our
+            services.
           </li>
           <li>
             <strong>Messages we send.</strong> With your consent, we may text you appointment confirmations, reminders,
-            scheduling updates, and responses to your inquiry. Marketing and promotional texts are sent only to people
-            who have separately agreed to receive them.
+            scheduling updates, and responses to your inquiry. We do not send marketing or promotional text messages.
           </li>
           <li>
             <strong>How you can opt in.</strong> You can opt in by checking the optional text message box on our booking
             form, or by telling us during a phone call that we may text you about an appointment you scheduled with us.
             When consent is given on a call, we record the date, time, phone number, and the messages you agreed to
-            receive. Agreeing on a call to receive appointment texts does not include marketing texts.
+            receive.
           </li>
           <li>
             <strong>A phone number alone is not consent.</strong> Entering your phone number, submitting a form,
-            booking a consultation, or calling us does not, by itself, mean you have agreed to receive marketing
-            text messages from us.
+            booking a consultation, or calling us does not, by itself, mean you have agreed to receive text messages
+            from us.
           </li>
           <li>
             <strong>Frequency and costs.</strong> Message frequency may vary. Message and data rates may apply,

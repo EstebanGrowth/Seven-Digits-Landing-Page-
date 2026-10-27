@@ -46,43 +46,31 @@ Copy-paste text for the GHL forms is in `A2P-SUBMISSION.md`. This checklist help
 
 ## 4. Consent on the booking form (set up in GoHighLevel)
 
-The website no longer has its own form. **The only opt-in point is the GHL booking calendar** embedded at `/#book`, so SMS consent must be configured inside GoHighLevel. The website code cannot change the calendar's checkbox text.
-
-⚠️ **The calendar's current default checkbox is not A2P-compliant:** "I confirm that I want to receive content from this company using any contact information I provide." It doesn't name the brand, mixes all message types, and has no frequency, rates, STOP/HELP, or policy links.
-
-In GHL, edit the calendar's booking form (or attach a custom form under the calendar's form settings) so it has **two separate, optional, unchecked checkboxes**. Recommended text (replace `[domain]` once the site is live):
-
-**Non-marketing (transactional):**
-> By checking this box, I agree to receive non-marketing text messages from Seven Digits related to my inquiry, consultation scheduling, appointment reminders, and requested follow-up. Message frequency may vary. Message and data rates may apply. Reply STOP to opt out or HELP for help. Consent is not a condition of purchase. View our Privacy Policy (https://[domain]/privacy-policy) and Terms and Conditions (https://[domain]/terms-and-conditions).
-
-**Marketing:**
-> By checking this box, I agree to receive marketing and promotional text messages from Seven Digits, including service updates and offers. Message frequency may vary. Message and data rates may apply. Reply STOP to opt out or HELP for help. Consent is not a condition of purchase. View our Privacy Policy (https://[domain]/privacy-policy) and Terms and Conditions (https://[domain]/terms-and-conditions).
+Seven Digits sends **appointment texts only, no marketing**. The only website opt-in point is the GHL booking calendar at `/#book`, which uses GHL's single **Consent checkbox** (Calendar → Forms & guests). The exact text to paste is in `A2P-SUBMISSION.md` Step 0.
 
 Verify on the live site:
 
-- [ ] Both checkboxes are **unchecked by default** and **not required**: a booking can be completed with neither checked.
-- [ ] Transactional and marketing consents are **separate** checkboxes.
-- [ ] Each disclosure includes brand name, message type, frequency, rates, STOP/HELP, "not a condition of purchase," and links to the Privacy Policy and Terms.
-- [ ] Privacy Policy states that mobile information and SMS opt-in data are **not sold or shared with third parties/affiliates for marketing**.
-- [ ] Privacy Policy states that providing a phone number alone is not SMS consent.
-- [ ] Terms include an SMS section (message types, frequency, rates, STOP, HELP, carrier disclaimer, privacy link, contact info).
+- [ ] The checkbox shows the Seven Digits appointment-consent text (not GHL's default "I confirm that I want to receive content…").
+- [ ] It is **unchecked by default** and **not required**: a booking can be completed without checking it.
+- [ ] The text includes brand name, message types, frequency, rates, STOP/HELP, "not a condition of purchase," and the Privacy Policy and Terms URLs.
+- [x] Privacy Policy states that mobile information and SMS opt-in data are **not sold or shared with third parties/affiliates for marketing**.
+- [x] Privacy Policy states that providing a phone number alone is not SMS consent.
+- [x] Terms include an SMS section (appointment-only message types, frequency, rates, STOP, HELP, carrier disclaimer, privacy link, contact info).
+- [x] Website, policies, and campaign all say no marketing texts are sent.
 
 ## 5. Consent records
 
-- [ ] Make a test booking with each checkbox combination and confirm in the GHL contact record that the consent choice is saved (as a field, tag, or in the appointment/contact activity).
-- [ ] If GHL does not record which box was checked in a way you can show later, map each checkbox to a contact field or tag (e.g. `sms-consent-transactional`, `sms-consent-marketing`) through the form settings or a workflow.
-- [ ] Keep a copy (screenshot + date) of the exact consent wording each time you change it.
+- [ ] Make a test booking with the box checked and one without, and confirm GHL saves the difference on the contact.
+- [ ] Verbal consent from phone calls is recorded with a field, tag, and note (`A2P-SUBMISSION.md` Step 0b).
+- [ ] Keep a dated screenshot of the consent wording each time you change it.
 
 ## 6. Campaign description must match reality
 
-When writing the A2P campaign, describe **only** the opt-in method that actually exists:
+Use the campaign description and message flow in `A2P-SUBMISSION.md`. They describe both opt-in methods (website checkbox and verbal on a call) and say appointment messages only.
 
-> Suggested opt-in description (edit to match your final GHL setup): "Contractors and business owners visit [website URL] and book a free strategy call using the booking form at [URL]/#book. The form includes two separate, optional, unchecked checkboxes: one to receive non-marketing texts about their inquiry, consultation scheduling, appointment reminders, and requested follow-up, and one to receive marketing texts. Each checkbox shows the brand name, message frequency, 'Message and data rates may apply,' STOP/HELP instructions, that consent is not a condition of purchase, and links to the Privacy Policy and Terms. A booking can be completed without checking either box."
-
-- [ ] Do not submit this description until the GHL form actually matches it.
-- [ ] Sample messages you submit match what you will really send, include "Seven Digits," and include opt-out language (e.g. "Reply STOP to opt out").
-- [ ] Campaign use case matches the checkboxes (mixed/marketing only if you will actually send marketing texts to people who checked that box).
-- [ ] Do **not** describe verbal, paper, or keyword opt-in unless you actually implement and record it.
+- [ ] Do not submit until the GHL checkbox shows the new text.
+- [ ] Sample messages match what you will really send, start with "Seven Digits," and include opt-out language.
+- [ ] Do **not** describe paper or keyword opt-in, or marketing messages.
 
 ## 7. Other consent sources
 
@@ -102,8 +90,8 @@ When writing the A2P campaign, describe **only** the opt-in method that actually
 ## 9. Remaining manual actions (summary)
 
 1. Deploy to Vercel and confirm the public URLs (README §5).
-2. **Replace the calendar's default consent checkbox** in GHL with the two compliant checkboxes in §4.
-3. Make test bookings and confirm the consent choices are recorded in GHL (§5).
+2. **Replace the calendar's default consent checkbox text** in GHL with the appointment-consent text (`A2P-SUBMISSION.md` Step 0).
+3. Make test bookings and confirm the consent choice is recorded in GHL (§5).
 4. ✅ Done: `legalEffectiveDate` set to October 26, 2026.
 5. ✅ Done: owner legal name shown in the Privacy Policy and Terms (`showOwnerNameInLegalPages: true`).
 6. Check New Jersey trade-name filing requirements for "Seven Digits."

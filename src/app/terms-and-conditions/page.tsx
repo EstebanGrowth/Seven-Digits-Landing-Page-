@@ -113,14 +113,12 @@ export default function TermsPage() {
         <h3>Types of messages</h3>
         <ul>
           <li>
-            <strong>Non-marketing (appointment) messages:</strong> appointment confirmations, reminders, scheduling
-            updates, and responses to your inquiry. Sent only if you opted in to these messages on our booking form or
-            agreed during a phone call with us to receive texts about an appointment you scheduled.
+            <strong>Appointment messages:</strong> appointment confirmations, reminders, scheduling updates, and
+            responses to your inquiry. Sent only if you checked the text message box on our booking form or agreed
+            during a phone call with us to receive texts about an appointment you scheduled.
           </li>
           <li>
-            <strong>Marketing messages:</strong> recurring promotional messages, including service updates and offers.
-            Sent only if you separately opted in to marketing messages. Agreeing to appointment texts does not include
-            marketing texts.
+            <strong>No marketing messages:</strong> Seven Digits does not send marketing or promotional text messages.
           </li>
         </ul>
         <h3>Program details</h3>
