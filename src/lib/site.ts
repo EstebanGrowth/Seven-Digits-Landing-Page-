@@ -17,12 +17,12 @@ export const site = {
   // review or the A2P Sole Proprietor registration flow requires the
   // owner's name on the policies, set this to true (see A2P-CHECKLIST.md).
   ownerLegalName: "Raul Esteban Arcila Echavarria",
-  showOwnerNameInLegalPages: false,
+  showOwnerNameInLegalPages: true,
 
   // Set this to the real publication date (e.g. "November 3, 2026") when
   // the Privacy Policy and Terms are published. Never backdate it.
   // While it is null, no effective date is displayed.
-  legalEffectiveDate: null as string | null,
+  legalEffectiveDate: "October 26, 2026" as string | null,
 
   bookingUrl: "https://api.leadconnectorhq.com/widget/booking/zsdp0ZpY4tlVh9shDhl8",
   bookingWidgetId: "zsdp0ZpY4tlVh9shDhl8",

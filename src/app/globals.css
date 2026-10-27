@@ -692,6 +692,20 @@ p {
   color: var(--subtle);
 }
 
+.sms-disclosure {
+  margin: 16px 0 0;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.sms-disclosure strong {
+  color: var(--text);
+}
+
 .side-info p {
   color: var(--muted);
 }

@@ -1,6 +1,6 @@
 # A2P 10DLC Readiness Checklist — Seven Digits
 
-This checklist helps prepare the GoHighLevel (LeadConnector) A2P 10DLC brand and campaign registration. It is **not legal advice**, and building this website does **not** approve the brand or campaign. Approval is decided by The Campaign Registry and the mobile carriers. Nothing has been submitted on your behalf.
+Copy-paste text for the GHL forms is in `A2P-SUBMISSION.md`. This checklist helps prepare the GoHighLevel (LeadConnector) A2P 10DLC brand and campaign registration. It is **not legal advice**, and building this website does **not** approve the brand or campaign. Approval is decided by The Campaign Registry and the mobile carriers. Nothing has been submitted on your behalf.
 
 ---
 
@@ -36,7 +36,7 @@ This checklist helps prepare the GoHighLevel (LeadConnector) A2P 10DLC brand and
 
 - [ ] All four URLs load publicly over HTTPS, without login, on desktop and mobile.
 - [ ] Privacy Policy and Terms are linked from the footer of every page, and from the SMS consent text in the GHL booking form.
-- [ ] `legalEffectiveDate` in `src/lib/site.ts` set to the real publication date.
+- [x] `legalEffectiveDate` set to October 26, 2026.
 
 ## 3. Website identification and contact
 
@@ -104,8 +104,8 @@ When writing the A2P campaign, describe **only** the opt-in method that actually
 1. Deploy to Vercel and confirm the public URLs (README §5).
 2. **Replace the calendar's default consent checkbox** in GHL with the two compliant checkboxes in §4.
 3. Make test bookings and confirm the consent choices are recorded in GHL (§5).
-4. Set `legalEffectiveDate` in `src/lib/site.ts` to the real publication date and redeploy.
-5. Decide whether the owner's legal name must appear in the policies (`showOwnerNameInLegalPages`).
+4. ✅ Done: `legalEffectiveDate` set to October 26, 2026.
+5. ✅ Done: owner legal name shown in the Privacy Policy and Terms (`showOwnerNameInLegalPages: true`).
 6. Check New Jersey trade-name filing requirements for "Seven Digits."
 7. Have an attorney review the Privacy Policy and Terms.
 8. Review HighLevel's current Sole Proprietor A2P instructions (OTP mobile, email rules, limits).

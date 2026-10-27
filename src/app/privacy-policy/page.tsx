@@ -117,9 +117,10 @@ export default function PrivacyPolicyPage() {
             </strong>
           </p>
           <p>
-            Text messaging originator opt-in data and consent will not be shared with any third parties, except
-            with service providers that help us operate our messaging program (such as our CRM and messaging
-            platform and telecommunications carriers), solely to deliver messages and as described in this policy.
+            No mobile information will be shared with third parties or affiliates for marketing or promotional
+            purposes. Information sharing with subcontractors in support services, such as customer service, is
+            permitted. All other use case categories exclude text messaging originator opt-in data and consent; this
+            information will not be shared with any third parties.
           </p>
         </div>
         <ul>
