@@ -687,10 +687,57 @@ p {
   font-weight: 600;
 }
 
+.contact-card {
+  margin-top: 16px;
+  padding: 22px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, var(--surface-2), var(--surface));
+}
+
+.contact-person {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid var(--border);
+}
+
+.contact-avatar {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.0625rem;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+  box-shadow: 0 8px 24px -8px rgba(37, 99, 235, 0.7);
+}
+
+.side-info .contact-name {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--text);
+}
+
+.side-info .contact-role {
+  margin: 2px 0 0;
+  font-size: 0.875rem;
+  color: var(--subtle);
+}
+
 .contact-list {
   list-style: none;
   padding: 0;
-  margin: 16px 0 0;
+  margin: 0;
   display: grid;
   gap: 14px;
 }
@@ -703,6 +750,20 @@ p {
   text-decoration: none;
   font-weight: 500;
   overflow-wrap: anywhere;
+}
+
+.contact-card .contact-list a {
+  font-size: 0.9375rem;
+}
+
+@media (max-width: 420px) {
+  .contact-card {
+    padding: 18px;
+  }
+
+  .contact-card .contact-list a {
+    font-size: 0.875rem;
+  }
 }
 
 .contact-list a:hover {

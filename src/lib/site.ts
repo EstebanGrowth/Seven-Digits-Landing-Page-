@@ -8,6 +8,8 @@ export const site = {
   description:
     "Seven Digits helps contractors in the United States attract potential customers, follow up with interested prospects, and create more opportunities to win their next job.",
   email: "sevendigits@esteban-growth.com",
+  // Name shown on the contact card (the full legal name appears only in the policies).
+  contactName: "Esteban Echavarria",
   phoneDisplay: "(908) 274-8268",
   phoneHref: "+19082748268",
   location: "New Jersey, United States",

@@ -78,24 +78,35 @@ export default function HomePage() {
               ))}
             </ul>
             <p className="contact-lead">Prefer to reach out directly?</p>
-            <ul className="contact-list">
-              <li>
-                <a href={`mailto:${site.email}`}>
-                  <span className="icon-dot">
-                    <Mail />
-                  </span>
-                  {site.email}
-                </a>
-              </li>
-              <li>
-                <a href={`tel:${site.phoneHref}`}>
-                  <span className="icon-dot">
-                    <Phone />
-                  </span>
-                  {site.phoneDisplay}
-                </a>
-              </li>
-            </ul>
+            <div className="contact-card">
+              <div className="contact-person">
+                <span className="contact-avatar" aria-hidden="true">
+                  EE
+                </span>
+                <div>
+                  <p className="contact-name">{site.contactName}</p>
+                  <p className="contact-role">Founder, Seven Digits</p>
+                </div>
+              </div>
+              <ul className="contact-list">
+                <li>
+                  <a href={`mailto:${site.email}`}>
+                    <span className="icon-dot">
+                      <Mail />
+                    </span>
+                    {site.email}
+                  </a>
+                </li>
+                <li>
+                  <a href={`tel:${site.phoneHref}`}>
+                    <span className="icon-dot">
+                      <Phone />
+                    </span>
+                    {site.phoneDisplay}
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <BookingEmbed />
         </div>
