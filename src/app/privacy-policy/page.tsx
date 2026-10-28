@@ -16,11 +16,11 @@ const sections = [
   ["sms", "Text messages (SMS) and mobile information"],
   ["email", "Email communications"],
   ["sharing", "How we share information"],
-  ["cookies", "Cookies, analytics, and tracking"],
+  ["cookies", "Cookies and tracking"],
   ["retention", "Data retention"],
-  ["security", "Security"],
+  ["security", "Data security"],
   ["your-choices", "Your choices and rights"],
-  ["children", "Children's privacy"],
+  ["children", "Age requirement and children's privacy"],
   ["changes", "Changes to this policy"],
   ["contact", "Contact us"],
 ] as const;
@@ -211,7 +211,7 @@ export default function PrivacyPolicyPage() {
           SMS opt-in data for their own marketing.
         </p>
 
-        <h2 id="cookies">7. Cookies, analytics, and tracking</h2>
+        <h2 id="cookies">7. Cookies and tracking</h2>
         <p>
           Our website does not currently use analytics tools, advertising pixels, or marketing cookies of its own.
           Our fonts are served from our own website, not loaded from a third party.
@@ -235,7 +235,7 @@ export default function PrivacyPolicyPage() {
           reasonable time.
         </p>
 
-        <h2 id="security">9. Security</h2>
+        <h2 id="security">9. Data security</h2>
         <p>
           We use reasonable administrative, technical, and physical safeguards to protect personal information,
           including encrypted (HTTPS) connections to our website and access controls on our business accounts.
@@ -256,10 +256,10 @@ export default function PrivacyPolicyPage() {
           We will not discriminate against you for making a request.
         </p>
 
-        <h2 id="children">11. Children&apos;s privacy</h2>
+        <h2 id="children">11. Age requirement and children&apos;s privacy</h2>
         <p>
           Our website and services are intended for businesses and adults. We do not knowingly collect personal
-          information from children under 16. If you believe a child has provided us with information, please
+          information from anyone under 18, and you must be at least 18 years old to opt in to our text messages. If you believe a child has provided us with information, please
           contact us and we will delete it.
         </p>
 

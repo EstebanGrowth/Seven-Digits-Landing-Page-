@@ -58,6 +58,11 @@ export default function TermsPage() {
           offer to provide services on specific terms.
         </p>
 
+        <p id="eligibility">
+          <strong>Age requirement:</strong> You must be at least 18 years old to use this website, book a consultation,
+          or opt in to our text messages. By using the website or opting in, you confirm that you are 18 or older.
+        </p>
+
         <h2 id="services">2. Our services</h2>
         <p>
           Seven Digits provides marketing and lead-generation services to contractors and contracting businesses in
@@ -133,6 +138,9 @@ export default function TermsPage() {
           <li>
             <strong>Help:</strong> Reply <strong>HELP</strong> for help, or contact us at{" "}
             <a href={`mailto:${site.email}`}>{site.email}</a> or {site.phoneDisplay}.
+          </li>
+          <li>
+            <strong>Age requirement:</strong> You must be 18 or older to opt in to Seven Digits text messages.
           </li>
           <li>
             <strong>Not a condition of purchase:</strong> Consent to receive text messages is not a condition of

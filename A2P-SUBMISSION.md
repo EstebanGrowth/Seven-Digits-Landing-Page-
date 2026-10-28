@@ -2,7 +2,7 @@
 
 Text prepared for the GoHighLevel A2P 10DLC **Sole Proprietor** brand and campaign forms. Field names in GHL may differ slightly; match each section to the closest field.
 
-**Scope: appointment messages only.** Seven Digits sends appointment confirmations, reminders, scheduling updates, and responses to inquiries. **No marketing or promotional texts.** The website, Privacy Policy, Terms, and everything below say the same thing.
+**Scope: appointment messages only.** Seven Digits sends appointment confirmations, appointment reminders, and the link to join the scheduled call. **No marketing or promotional texts.** The website, Privacy Policy, Terms, and everything below say the same thing.
 
 Approval is decided by The Campaign Registry and the carriers, not by GHL or this website. Nothing here guarantees approval.
 
@@ -65,9 +65,9 @@ The Privacy Policy and Terms name you as the owner of Seven Digits so reviewers 
 
 ## Campaign
 
-**Campaign description**
+**Campaign description / Use Case Description**
 ```
-Seven Digits is a marketing and lead-generation business for contractors in the United States. We send appointment-related text messages to contractors and business owners who schedule a free strategy call with us and opt in, either by checking the text message consent box on the booking form on our website or by agreeing verbally during a phone call in which they schedule the meeting. Messages are appointment confirmations, reminders, scheduling updates, and responses to their inquiry. We do not send marketing or promotional text messages.
+Seven Digits (Raul Esteban Arcila Echavarria, sole proprietor) is a marketing and lead-generation business for contractors in the United States. We send appointment-related text messages only to business owners who schedule a free strategy call with us and opt in, either by checking the optional SMS consent box on our booking form at https://seven-digits-landing-page.vercel.app/#book or by agreeing verbally during the phone call in which the meeting is scheduled. Messages are limited to appointment confirmations, appointment reminders, and the video-call link to join the scheduled meeting. We do not send marketing or promotional messages. Message frequency varies, usually up to 3 messages per scheduled appointment. Recipients can reply STOP to opt out or HELP for help at any time.
 ```
 
 **Message flow / call to action (how users opt in)**
@@ -75,15 +75,22 @@ Seven Digits is a marketing and lead-generation business for contractors in the 
 Users opt in in one of two ways. (1) Website: at https://seven-digits-landing-page.vercel.app/#book, users book a free strategy call in our booking calendar and enter their name, phone, and email. The booking form has one optional checkbox, unchecked by default, that reads: "By checking this box, I agree to receive text messages from Seven Digits regarding appointment confirmations, reminders, scheduling updates, and responses to my inquiry. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help. Consent is not a condition of purchase." followed by links to our Privacy Policy (https://seven-digits-landing-page.vercel.app/privacy-policy) and Terms and Conditions (https://seven-digits-landing-page.vercel.app/terms-and-conditions). Users can book without checking the box. (2) Phone: when a business owner schedules a meeting with us during a phone call, we ask whether we may text them at that number to confirm and remind them about the appointment, and tell them message and data rates may apply and they can reply STOP at any time. We record verbal consent in our CRM with the date, time, and number. We only text users who opted in, and only about their appointment.
 ```
 
-**Sample message 1 (confirmation)**
+**Sample message 1 (confirmation): use in the "Transactional/Informational" field**
 ```
-Seven Digits: Hi {first_name}, your free strategy call is confirmed for {date} at {time} ET. Reply STOP to opt out, HELP for help.
+Seven Digits: Hi [First Name], your free strategy call with Esteban is confirmed for [Date] at [Time] ET. We'll text you a reminder and the link to join before the call. Reply HELP for help or STOP to opt out.
 ```
 
-**Sample message 2 (reminder)**
+**Sample message 2 (reminder with call link): use in the "Promotional/Marketing" field, which GHL makes mandatory.** It is still an appointment message; do not write a promotion there, because the site and policies say no marketing texts are sent.
 ```
-Seven Digits: Reminder, your strategy call with us is tomorrow at {time} ET. Need to reschedule? Reply to this message. Reply STOP to opt out.
+Seven Digits: Hi [First Name], reminder: your strategy call with Esteban starts today at [Time] ET. Join here: https://meet.google.com/abc-defg-hij Reply STOP to opt out.
 ```
+
+**Sample message 3 (link only, optional)**
+```
+Seven Digits: [First Name], your call with Esteban starts in 10 minutes. Join here: https://meet.google.com/abc-defg-hij Reply STOP to opt out.
+```
+
+Replace the Google Meet example with the real kind of link your calendar sends (e.g. a `zoom.us` link). Always use the full link, never a URL shortener.
 
 **Opt-in confirmation message** (first message after opt-in, if GHL asks)
 ```
@@ -103,7 +110,7 @@ Seven Digits: For help, email sevendigits@esteban-growth.com or call (908) 274-8
 **Opt-in / opt-out / help keywords:** START / STOP, UNSUBSCRIBE, CANCEL, END, QUIT / HELP, INFO
 
 **Campaign checkboxes**
-- Embedded links: **No**, if your messages won't contain URLs (the samples above have none). If you will text the booking link, answer Yes and add the full link (no URL shorteners) to a sample.
+- Embedded links: **Yes** (reminders include the link to join the call; full link, no shorteners).
 - Embedded phone numbers: **Yes** (the HELP reply includes your phone number).
 - Age-gated content: **No**
 - Direct lending / loans: **No**
