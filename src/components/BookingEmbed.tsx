@@ -38,7 +38,7 @@ export function BookingEmbed() {
       </p>
       <p className="sms-disclosure">
         <strong>Text messages are optional.</strong> You can book a call without checking the text message box on the
-        booking form. If you check it, Seven Digits may text you appointment confirmations, reminders, scheduling
+        booking form. If you check it, Seven Digits (Raul Esteban Arcila Echavarria) may text you appointment confirmations, reminders, scheduling
         updates, and responses to your inquiry. We do not send marketing texts. Message frequency varies. Message and
         data rates may apply. Reply STOP to opt out or HELP for help. Consent is not a condition of purchase. See our{" "}
         <Link href="/privacy-policy">Privacy Policy</Link> and <Link href="/terms-and-conditions">Terms and Conditions</Link>.
