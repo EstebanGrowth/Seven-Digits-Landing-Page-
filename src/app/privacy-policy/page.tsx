@@ -9,22 +9,6 @@ export const metadata: Metadata = {
   alternates: { canonical: "/privacy-policy" },
 };
 
-const sections = [
-  ["who-we-are", "Who we are"],
-  ["information-we-collect", "Information we collect"],
-  ["how-we-use", "How we use information"],
-  ["sms", "Text messages (SMS) and mobile information"],
-  ["email", "Email communications"],
-  ["sharing", "How we share information"],
-  ["cookies", "Cookies and tracking"],
-  ["retention", "Data retention"],
-  ["security", "Data security"],
-  ["your-choices", "Your choices and rights"],
-  ["children", "Age requirement and children's privacy"],
-  ["changes", "Changes to this policy"],
-  ["contact", "Contact us"],
-] as const;
-
 export default function PrivacyPolicyPage() {
   return (
     <article className="legal">
@@ -39,17 +23,6 @@ export default function PrivacyPolicyPage() {
           website, contact us, book a consultation, or receive our marketing and lead-generation services.
         </p>
 
-        <nav className="legal-toc" aria-label="Privacy Policy sections">
-          <p>On this page</p>
-          <ol>
-            {sections.map(([id, label]) => (
-              <li key={id}>
-                <a href={`#${id}`}>{label}</a>
-              </li>
-            ))}
-          </ol>
-        </nav>
-
         <h2 id="who-we-are">1. Who we are</h2>
         <p>
           Seven Digits provides marketing and lead-generation services to contractors and contracting
@@ -58,11 +31,11 @@ export default function PrivacyPolicyPage() {
           You can reach us using the details in the <a href="#contact">Contact us</a> section.
         </p>
 
-        <h2 id="information-we-collect">2. Information we collect</h2>
+        <h2 id="information-we-collect">2. What information we collect</h2>
         <h3>Information you give us</h3>
         <p>When you book a consultation through our website, email, call, or work with us, you may provide:</p>
         <ul>
-          <li>Contact details: your name, email address, and phone number.</li>
+          <li>Contact details: your name, email address, and phone number (including mobile phone numbers).</li>
           <li>Business details: your business name, type of contracting business, and service area.</li>
           <li>Information about your goals, marketing challenges, services, and project or marketing requirements.</li>
           <li>Scheduling details you enter when booking a consultation.</li>
@@ -95,7 +68,7 @@ export default function PrivacyPolicyPage() {
           inquiries to you, in line with our agreement with you. We do not buy, sell, or rent lead lists.
         </p>
 
-        <h2 id="how-we-use">3. How we use information</h2>
+        <h2 id="how-we-use">3. How we use your information</h2>
         <ul>
           <li>To respond to your inquiry and communicate with you about it.</li>
           <li>To schedule, confirm, and remind you about consultations.</li>
@@ -108,19 +81,15 @@ export default function PrivacyPolicyPage() {
           <li>To protect our website and business against fraud, spam, and abuse, and to comply with legal obligations.</li>
         </ul>
 
-        <h2 id="sms">4. Text messages (SMS) and mobile information</h2>
+        <h2 id="sms">4. SMS / text message program and opt-in</h2>
         <div className="callout">
           <p>
             <strong>
-              We do not sell, rent, or share mobile information or SMS consent/opt-in data with third parties or
-              affiliates for their own marketing or promotional purposes.
-            </strong>
-          </p>
-          <p>
-            No mobile information will be shared with third parties or affiliates for marketing or promotional
-            purposes. Information sharing with subcontractors in support services, such as customer service, is
-            permitted. All other use case categories exclude text messaging originator opt-in data and consent; this
-            information will not be shared with any third parties.
+              No mobile information will be shared with third parties/affiliates for marketing/promotional purposes.
+              Information sharing to subcontractors in support services, such as customer service, is permitted.
+            </strong>{" "}
+            All other use case categories exclude text messaging originator opt-in data and consent; this information
+            will not be shared with any third parties.
           </p>
         </div>
         <ul>
@@ -242,7 +211,7 @@ export default function PrivacyPolicyPage() {
           No method of transmission or storage is completely secure, so we cannot guarantee absolute security.
         </p>
 
-        <h2 id="your-choices">10. Your choices and rights</h2>
+        <h2 id="your-choices">10. Your rights: access, update, delete, and unsubscribe</h2>
         <p>You can contact us at any time to:</p>
         <ul>
           <li>Ask what personal information we have about you.</li>
