@@ -37,7 +37,7 @@ export const site = {
   // Embed URL of the GoHighLevel form used as the SMS opt-in form, e.g.
   // "https://api.leadconnectorhq.com/widget/form/<formId>". While it is
   // null, the /sms-opt-in page returns 404 and no links point to it.
-  smsOptInFormUrl: null as string | null,
+  smsOptInFormUrl: "https://api.leadconnectorhq.com/widget/form/Ne2v86OLKE7q2RgPutGL" as string | null,
 } as const;
 
 // Canonical origin. Set NEXT_PUBLIC_SITE_URL once the custom domain is live.
