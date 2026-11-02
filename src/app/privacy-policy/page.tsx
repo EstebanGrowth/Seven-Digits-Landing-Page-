@@ -89,7 +89,8 @@ export default function PrivacyPolicyPage() {
               Information sharing to subcontractors in support services, such as customer service, is permitted.
             </strong>{" "}
             All other use case categories exclude text messaging originator opt-in data and consent; this information
-            will not be shared with any third parties.
+            will not be shared with any third parties. We do not sell or share SMS opt-in data or personal information with third
+            parties for marketing or promotional purposes.
           </p>
         </div>
         <ul>
@@ -99,14 +100,14 @@ export default function PrivacyPolicyPage() {
             services.
           </li>
           <li>
-            <strong>Messages we send.</strong> With your consent, we may text you appointment confirmations, reminders,
-            scheduling updates, and responses to your inquiry. We do not send marketing or promotional text messages.
+            <strong>Messages we send.</strong> With your consent, we may text you appointment booking confirmations,
+            reminders, scheduling updates, and the link to join your scheduled call. Message frequency varies depending
+            on the appointments you schedule. We do not send marketing or promotional text messages.
           </li>
           <li>
-            <strong>How you can opt in.</strong> You can opt in by checking the optional text message box on our booking
-            form, or by telling us during a phone call that we may text you about an appointment you scheduled with us.
-            When consent is given on a call, we record the date, time, phone number, and the messages you agreed to
-            receive.
+            <strong>How you can opt in.</strong> The only way to opt in is by checking the optional, unchecked SMS
+            consent box on a form on our website. That box is separate from any other agreement, and we only send text
+            messages to people who checked it.
           </li>
           <li>
             <strong>A phone number alone is not consent.</strong> Entering your phone number, submitting a form,
@@ -132,8 +133,8 @@ export default function PrivacyPolicyPage() {
           </li>
         </ul>
         <p>
-          More details about our messaging program are in the SMS section of our{" "}
-          <Link href="/terms-and-conditions#sms-terms">Terms and Conditions</Link>.
+          More details about our messaging program are in our{" "}
+          <Link href="/sms-terms">SMS Terms and Conditions</Link>.
         </p>
 
         <h2 id="email">5. Email communications</h2>

@@ -674,6 +674,17 @@ p {
   color: var(--muted);
 }
 
+.legal-links {
+  margin: 12px 0 0;
+  font-size: 0.9375rem;
+  color: var(--subtle);
+}
+
+.form-frame,
+.form-frame iframe {
+  min-height: 560px;
+}
+
 .sms-disclosure strong {
   color: var(--text);
 }

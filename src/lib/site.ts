@@ -24,10 +24,20 @@ export const site = {
   // Set this to the real publication date (e.g. "November 3, 2026") when
   // the Privacy Policy and Terms are published. Never backdate it.
   // While it is null, no effective date is displayed.
-  legalEffectiveDate: "October 26, 2026" as string | null,
+  legalEffectiveDate: "November 2, 2026" as string | null,
 
   bookingUrl: "https://api.leadconnectorhq.com/widget/booking/zsdp0ZpY4tlVh9shDhl8",
   bookingWidgetId: "zsdp0ZpY4tlVh9shDhl8",
+
+  // SMS program. The brand must match the A2P brand registration exactly
+  // (registered as "Raul Esteban Arcila Echavarria").
+  smsBrand: "Raul Esteban Arcila Echavarria doing business as Seven Digits",
+  smsProgramName: "Seven Digits Appointment Reminders",
+
+  // Embed URL of the GoHighLevel form used as the SMS opt-in form, e.g.
+  // "https://api.leadconnectorhq.com/widget/form/<formId>". While it is
+  // null, the /sms-opt-in page returns 404 and no links point to it.
+  smsOptInFormUrl: null as string | null,
 } as const;
 
 // Canonical origin. Set NEXT_PUBLIC_SITE_URL once the custom domain is live.

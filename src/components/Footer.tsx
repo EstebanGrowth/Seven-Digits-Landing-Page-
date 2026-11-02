@@ -42,6 +42,14 @@ export function Footer() {
               <li>
                 <Link href="/terms-and-conditions">Terms and Conditions</Link>
               </li>
+              <li>
+                <Link href="/sms-terms">SMS Terms &amp; Conditions</Link>
+              </li>
+              {site.smsOptInFormUrl && (
+                <li>
+                  <Link href="/sms-opt-in">Appointment Text Reminders</Link>
+                </li>
+              )}
             </ul>
           </div>
         </div>

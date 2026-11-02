@@ -111,16 +111,15 @@ export default function TermsPage() {
 
         <h2 id="sms-terms">6. SMS program terms</h2>
         <p>
-          Seven Digits may send text messages only to people who have opted in, for example through an optional consent
-          checkbox on our booking form, or who have otherwise given consent in a way that is recorded and permitted by
-          law.
+          Seven Digits may send text messages only to people who have opted in by checking the optional, unchecked SMS
+          consent box on a form on our website. The full terms of our text message program are in our{" "}
+          <Link href="/sms-terms">SMS Terms and Conditions</Link>.
         </p>
         <h3>Types of messages</h3>
         <ul>
           <li>
-            <strong>Appointment messages:</strong> appointment confirmations, reminders, scheduling updates, and
-            responses to your inquiry. Sent only if you checked the text message box on our booking form or agreed
-            during a phone call with us to receive texts about an appointment you scheduled.
+            <strong>Appointment messages:</strong> appointment booking confirmations, reminders, scheduling updates, and
+            the link to join your scheduled call. Sent only if you checked the SMS consent box on a form on our website.
           </li>
           <li>
             <strong>No marketing messages:</strong> Seven Digits does not send marketing or promotional text messages.
