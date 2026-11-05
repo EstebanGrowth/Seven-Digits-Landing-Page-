@@ -84,6 +84,28 @@ Seven Digits (Raul Esteban Arcila Echavarria, sole proprietor) is a marketing an
 Contacts opt in only through the web form at https://seven-digits-landing-page.vercel.app/sms-opt-in, which is visible as soon as the page loads. The form collects first name, last name, phone number, and email, and has one optional checkbox for SMS that is unchecked by default and not combined with any other agreement or email signup. The checkbox reads: "I agree to receive recurring automated text messages from Raul Esteban Arcila Echavarria doing business as Seven Digits regarding appointments I schedule, including booking confirmations, reminders, and appointment updates. Message frequency varies. Msg & data rates may apply. Reply STOP to opt out or HELP for help. Consent is not a condition of booking." Directly below the checkbox are links to our Privacy Policy (https://seven-digits-landing-page.vercel.app/privacy-policy) and SMS Terms & Conditions (https://seven-digits-landing-page.vercel.app/sms-terms). The form can be submitted without checking the box, and only contacts who check it receive text messages; everyone else receives appointment confirmations by email. The same checkbox appears on our booking calendar at https://seven-digits-landing-page.vercel.app/#book. Screenshot of the opt-in form: [LINK TO NEW SCREENSHOT].
 ```
 
+### Fix for rejection 30917 ("Not all opt-in methods were described")
+
+The reviewer saw more than one opt-in method selected but only one described. Fix it like this:
+
+1. Keep **Opt-In Method = Website Form** (it's a single choice). The "multiple methods" the reviewer saw are the two places the checkbox appears: the `/sms-opt-in` form and the booking calendar. The old text only mentioned the calendar in one line, with no evidence, and its checkbox wording is different.
+2. Before resubmitting, change the **booking calendar** checkbox (Calendars → Strategy Session → Forms & guests → Consent checkbox) to the **exact same text** as the opt-in form below, and set its links to `/privacy-policy` and `/sms-terms`. Today it still says "non-marketing text messages … and responses to my inquiry … Consent is not a condition of purchase" and links to `/terms-and-conditions`, which doesn't match the campaign.
+3. Take a new screenshot of the booking calendar's details step (with the checkbox visible) and save it as `public/a2p/booking-calendar-form.jpg`, so it's published next to `public/a2p/sms-opt-in-form.jpg`.
+4. Paste the text below into the **Message Flow / How do contacts opt in** field. It names both online entry points and gives evidence for each.
+
+**Message Flow (replaces "How do Contacts Opt-in to Messages?")**
+```
+We collect SMS consent by ONE method only: web forms on our website (never verbally, on paper, by keyword or QR code). The consent checkbox appears in TWO places, both with identical wording:
+
+(1) SMS opt-in form at https://seven-digits-landing-page.vercel.app/sms-opt-in. The form collects first name, last name, phone number, and email. It has one optional SMS checkbox, unchecked by default and not required to submit the form. Screenshot: https://seven-digits-landing-page.vercel.app/a2p/sms-opt-in-form.jpg
+
+(2) Booking calendar at https://seven-digits-landing-page.vercel.app/#book. After the contact picks a date and time for a strategy call, the details step collects first name, last name, phone number, and email, and shows the same optional SMS checkbox, unchecked by default. The call can be booked without checking it. Screenshot: https://seven-digits-landing-page.vercel.app/a2p/booking-calendar-form.jpg
+
+Checkbox text on both forms: "I agree to receive recurring automated text messages from Raul Esteban Arcila Echavarria doing business as Seven Digits regarding appointments I schedule, including booking confirmations, reminders, and appointment updates. Message frequency varies. Msg & data rates may apply. Reply STOP to opt out or HELP for help. Consent is not a condition of booking."
+
+Directly below the checkbox on both forms are links to our Privacy Policy (https://seven-digits-landing-page.vercel.app/privacy-policy) and SMS Terms & Conditions (https://seven-digits-landing-page.vercel.app/sms-terms). Consent is not combined with any other agreement. Only contacts who check the box receive text messages; after opting in they receive the opt-in confirmation message, followed only by appointment confirmations, reminders, and the call link. Everyone else receives appointment emails only. Contacts can reply STOP at any time to opt out or HELP for help.
+```
+
 **Opt-in Message**
 ```
 Seven Digits: You're opted in to appointment confirmations, reminders, and call links. Msg frequency varies. Msg & data rates may apply. Reply HELP for help, STOP to opt out.
